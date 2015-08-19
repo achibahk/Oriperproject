@@ -3,7 +3,7 @@ Oriper 原創交流平台專案<br>
 1)推薦花點時間閱讀IA Document:　https://drive.google.com/file/d/0B6-JSvmsopwsTGVqN3BnM1hkenc/view?usp=sharing<br>
 2)原始Wireframe:https://imgur.com/a/FA2AO<br>
 3)依洛改進的Wireframe：https://imgur.com/a/lFQep<br>
-4)資料庫架構：http://imgur.com/fWFQp1j
+4)資料庫架構：http://imgur.com/fWFQp1j<br>
 5)完成優先順序：https://oriper_public.hackpad.com/Oriper-Project-adapted-from--8ekWHQCm8ul<br>
 6)已完成的Wireframe：https://drive.google.com/folderview?id=0B6-JSvmsopwsfjFIdnFlYVZBelJ5b1otclpfcDdnOGgxZEtpMFFhQkVPRnBSN253QjVJQ3M&usp=sharing (抱歉，麻煩幫我上傳至此Github，我不懂用囧）
 
