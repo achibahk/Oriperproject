@@ -5,14 +5,16 @@ Oriper 原創交流平台專案<br>
 3)依洛改進的Wireframe：https://imgur.com/a/lFQep<br>
 4)資料庫架構：http://imgur.com/fWFQp1j<br>
 5)完成優先順序：https://oriper_public.hackpad.com/Oriper-Project-adapted-from--8ekWHQCm8ul<br>
-6)已完成的Wireframe：https://drive.google.com/folderview?id=0B6-JSvmsopwsfjFIdnFlYVZBelJ5b1otclpfcDdnOGgxZEtpMFFhQkVPRnBSN253QjVJQ3M&usp=sharing (抱歉，麻煩幫我上傳至此Github，我不懂用囧）
+6)已完成的Wireframe，大感謝阿旭：https://drive.google.com/folderview?id=0B6-JSvmsopwsfjFIdnFlYVZBelJ5b1otclpfcDdnOGgxZEtpMFFhQkVPRnBSN253QjVJQ3M&usp=sharing (抱歉，麻煩幫我上傳至此Github，我不懂用囧）
 
 前言：
 希望各位愛護這裡，請勿引爆，我把我知道的都盡量放這裡了，請盡量幫忙修正
 
 如果有任何問題或討論，可善用這裡，如果需要我回答而我消失了請直接敲我，但當然有更好想法請賜教
 
-大感謝各位工程部的成員，如不想出名請把自己名字刪除：丫喵、熊寶、旭、Mewzi（彌子）、羽依、言逸文、Poyu、依洛、Lynn，也特別感謝囧星人熱情支援資料
+大感謝各位工程部的成員，如不想出名請把自己名字刪除：丫喵、熊寶、旭、Mewzi（彌子）、羽依、言逸文、Poyu、依洛、Lynn
+特別感謝囧星人熱情支援資料
+感謝球+瀴於前期給予意見
 
 工程部各位朋友，如果我漏了整理某些資料請幫忙指出，不懂程式碼……囧
 
