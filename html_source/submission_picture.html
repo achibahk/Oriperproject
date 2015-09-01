@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+		<title>master</title>
+		<meta name="description" content="">
+		<meta name="author" content="User">
+
+		<meta name="viewport" content="width=1024; initial-scale=1.0">
+		<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css"/>
+		<link rel="stylesheet" href="css/nivoSlider.css" type="text/css"/>
+		<link rel="stylesheet" href="css/global.css" type="text/css"/>
+		
+		<script type="text/javascript" src="js/jquery/jquery-2.1.3.min.js"></script>
+		<script type="text/javascript" src="js/jquery/jquery.nivo.slider.pack.js"></script>
+		<script type="text/javascript" src="js/jquery/respond.js"></script>
+		<script type="text/javascript" src="js/jquery/bootstrap.min.js"></script>
+		<script type="text/javascript" src="js/core.js"></script>
+		<link rel="shortcut icon" href="/favicon.ico">
+		<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+	</head>
+
+	<body>
+		
+			<!-- Header Bar Starts -->
+			<header>
+				<div class="container">
+					<div class="logo">
+						<img src="images/common/logo.png" alt="ORIPER"/>
+					</div>
+					<div class="searchBar">
+						<div class="bar">
+							<ul class="tagInput">
+								<li class="tag">
+									<a href="#">原創</a>
+								</li>
+								<li class="tag">
+									<a href="#">奇幻</a>
+								</li>
+								<li class="tag">
+									<a href="#">耽美</a>
+								</li>
+							</ul>
+							<input id="searchTextbox" type="text">
+							<a href="#" class="dropdown">進階檢索</a>
+						</div>
+						<div class="advanceSearchContainer">
+
+						</div>
+						<div class="searchBtn">
+							<input id="searchSubmitBtn" type="submit">
+						</div>
+					</div>
+
+					<div class="memberControl">
+						<div class="socialFunctions">
+							<a href="#" class="group">社群</a>
+							<a href="#" class="privateMessage">私訊</a>
+						</div>
+						<div class="accountControl">
+							<div class="info">
+								<div class="accountImage">
+									<img src="images/dummy/userIco.jpg" />
+								</div>
+								<div class="accountName">
+									<a href="#">使用者名稱</a>
+								</div>
+							</div>
+							<div class="functionDropdown">
+								<div class="arrow"></div>
+								<div class="list">
+									<ul>
+										<li>
+											<a href="#">首頁</a>
+										</li>
+									</ul>
+									<ul>
+										<li>
+											<a href="#">個人頁面</a>
+										</li>
+										<li>
+											<a href="#">上傳作品</a>
+										</li>
+										<li>
+											<a href="#">管理作品</a>
+										</li>
+									</ul>
+									<ul>
+										<li>
+											<a href="#">登出</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</header>
+			<!-- Header Bar Ends -->
+			<!-- Login Home Template Starts -->
+			<div class="controlPanel contentSection clearfix">
+				<ul>
+					<li><a href="#">投稿作品/企劃</a></li>
+					<li><a href="#">我的作品/關注/記錄</a></li>
+					<li><a href="#">大家的投稿與排行</a></li>
+				</ul>
+			</div>
+			<div class="uploadPanel contentSection clearfix">
+				<ul class="row">
+					<li class="col-md-3 center"><a href="#">企劃</a></li>
+					<li class="col-md-3 center"><a href="#">角色</a></li>
+					<li class="col-md-3 center"><a href="#" class="active">作品</a></li>
+					<li class="col-md-3 center"><a href="#">活動</a></li>
+				</ul>
+			</div>
+			<div class="contentSection clearfix">
+				<div class="myInterfaceContentBlock formBlock col-md-12 center">
+					<p class="fieldLabel">作品圖片</p>
+					<p><a href="#" class="pinkBtn">上傳圖片</a></p>
+					<span class="normal">可連續上傳，最多上傳30幅，每張圖片不超過8MB</span>
+				</div>
+			</div>
+			<div class="contentSection clearfix">
+				<div class="myInterfaceContentBlock formBlock col-md-12">
+					<div class="form">
+						<label class="text">作品圖片<span class="mandatoryTag">必填</span></label>
+						<input type="text" placeholder="20字">
+						<label class="text">作品簡介</label>
+						<textarea placeholder="300字"></textarea>
+						<div class="tagCloud">
+							<label class="text">作品標籤</label>
+							<div class="tagField">
+								<span class="tag"><a href="#">奇幻</a></span><span class="tag"><a href="#">歡樂</a></span><span class="tag"><a href="#">大正</a></span><span class="tag"><a href="#">奇幻</a></span><span class="tag"><a href="#">歡樂</a></span><span class="tag"><a href="#">大正</a></span><span class="tag"><a href="#">奇幻</a></span><span class="tag"><a href="#">歡樂</a></span><span class="tag"><a href="#">大正</a></span><span class="tag"><a href="#">奇幻</a></span><span class="tag"><a href="#">歡樂</a></span><span class="tag"><a href="#">大正</a></span>
+								<input id="workTag" class="tagInput" type="text">
+							</div>
+							<div class="clearfix">
+								<div class="floatLeft col-md-6 noPadding"><input type="checkbox" id="prohibitEdit" name="prohibitEdit" /><label class="checkbox" for="prohibitEdit">禁止其他用戶編輯標籤</label></div>
+								<div class="floatRight col-md-6 right noPadding alignLabel"><a href="#">按一下展開建議標籤</a></div>
+							</div>
+						</div>
+						<p>&nbsp;</p>
+						<div class="tagCloud">
+							<label class="text">作品連結<span class="grey formRemarks">與本作品有關的企劃/系列故事/活動</span></label>
+							<div class="tagField">
+								<span class="tag"><a href="#">奇幻</a></span><span class="tag"><a href="#">歡樂</a></span><span class="tag"><a href="#">大正</a></span>
+								<input id="workLinkTag" class="tagInput" type="text">
+							</div>
+							<p class="alignLabel noMargin"><a href="#" class="newStoryToggle">都沒有?要建立故事，請按一下展開。</a></p>
+						</div>
+					</div>
+					<div class="newStoryForm">
+					<div class="form green">
+						<p><span class="fieldLabel">設定新的系列故事</span><span class="formRemarks">如果你的投稿作品是你計劃連載一部分，可增加「系列作品」標籤，讓讀者方便追蹤最新連載。你亦可選擇開放二次創作，使其他創作者能依據你的作品發揮創意。</span></p>
+						<input type="text" placeholder="系列故事名稱">
+						<div class="tagCloud">
+							<label class="text">系列故事標籤</label>
+							<div class="tagField">
+								<span class="tag"><a href="#">奇幻</a></span><span class="tag"><a href="#">歡樂</a></span><span class="tag"><a href="#">大正</a></span>
+								<input id="projectTag" class="tagInput" type="text">
+							</div>
+							<div class="right alignLabel">
+								<a href="#">按一下展開建議標籤</a>
+							</div>
+						</div>
+						<textarea placeholder="系列故事簡介，100字"></textarea>
+						<span class="fieldLabel alignLabel">參與模式</span>
+						<div class="row radioGroupRow">
+							<div class="col-md-4 alignLabel"><label class="radioGroup">允許二次創作</label></div>
+							<div class="col-md-2"><input type="radio" id="radio1_1" name="radio1" /><label class="radio" for="radio1_1">自由參與</label></div>
+							<div class="col-md-2"><input type="radio" id="radio1_2" name="radio1" /><label class="radio" for="radio1_2">審核制</label></div>
+							<div class="col-md-2"><input type="radio" id="radio1_3" name="radio1" /><label class="radio" for="radio1_3">不允許</label></div>
+							<div class="col-md-2 right"><input type="checkbox" id="announce1" name="announce1" /><label class="checkbox" for="announce1">通知</label></div>
+						</div>
+						<div class="row radioGroupRow">
+							<div class="col-md-4 alignLabel"><label class="radioGroup">引用創作刊登同人誌</label></div>
+							<div class="col-md-2"><input type="radio" id="radio2_1" name="radio2" /><label class="radio" for="radio2_1">自由參與</label></div>
+							<div class="col-md-2"><input type="radio" id="radio2_2" name="radio2" /><label class="radio" for="radio2_2">審核制</label></div>
+							<div class="col-md-2"><input type="radio" id="radio2_3" name="radio2" /><label class="radio" for="radio2_3">不允許</label></div>
+							<div class="col-md-2 right"><input type="checkbox" id="announce2" name="announce2" /><label class="checkbox" for="announce2">通知</label></div>
+						</div>
+						<div class="row radioGroupRow">
+							<div class="col-md-4 alignLabel"><label class="radioGroup">二次創作刊登同人誌</label></div>
+							<div class="col-md-2"><input type="radio" id="radio3_1" name="radio3" /><label class="radio" for="radio3_1">允許</label></div>
+							<div class="col-md-2"><input type="radio" id="radio3_2" name="radio3" /><label class="radio" for="radio3_2">不允許</label></div>
+							<div class="col-md-2"></div>
+							<div class="col-md-2 right"><input type="checkbox" id="announce3" name="announce3" /><label class="checkbox" for="announce3">通知</label></div>
+						</div>
+						<div class="row radioGroupRow">
+							<div class="col-md-4 alignLabel"><label class="radioGroup">商業刊登</label></div>
+							<div class="col-md-2"><input type="radio" id="radio4_1" name="radio4" /><label class="radio" for="radio4_1">自由參與</label></div>
+							<div class="col-md-2"><input type="radio" id="radio4_2" name="radio4" /><label class="radio" for="radio4_2">不允許</label></div>
+							<div class="col-md-2"></div>
+							<div class="col-md-2 right"><input type="checkbox" id="announce4" name="announce4" /><label class="checkbox" for="announce4">通知</label></div>
+						</div>
+						<p>&nbsp;</p>
+						<div class="row radioGroupRow">
+							<div class="col-md-3 alignLabel"><label class="radioGroup">性描寫</label></div>
+							<div class="col-md-2"><input type="radio" id="radio5_1" name="radio5" /><label class="radio" for="radio5_1">允許</label></div>
+							<div class="col-md-2"><input type="radio" id="radio5_2" name="radio5" /><label class="radio" for="radio5_2">不允許</label></div>
+						</div>
+						<div class="row radioGroupRow">
+							<div class="col-md-3 alignLabel"><label class="radioGroup">敏感題材</label></div>
+							<div class="col-md-2"><input type="checkbox" id="sensitiveTag1" name="sensitiveTag" /><label class="checkbox" for="sensitiveTag1">暴力</label></div>
+							<div class="col-md-3"><input type="checkbox" id="sensitiveTag2" name="sensitiveTag" /><label class="checkbox" for="sensitiveTag2">飲酒/抽菸/藥物</label></div>
+							<div class="col-md-2"><input type="checkbox" id="sensitiveTag3" name="sensitiveTag" /><label class="checkbox" for="sensitiveTag3">語言/思想</label></div>
+							
+						</div>
+						<div class="row radioGroupRow">
+							<div class="col-md-3"></div>
+							<div class="col-md-3"><input type="checkbox" id="sensitiveTag4" name="sensitiveTag" /><label class="checkbox" for="sensitiveTag4">反社會表現</label></div>
+							<div class="col-md-2"><input type="checkbox" id="sensitiveTag5" name="sensitiveTag" /><label class="checkbox" for="sensitiveTag5">宗教</label></div>
+							<div class="col-md-2"><input type="checkbox" id="sensitiveTag6" name="sensitiveTag" /><label class="checkbox" for="sensitiveTag6">BL</label></div>
+							<div class="col-md-2"><input type="checkbox" id="sensitiveTag7" name="sensitiveTag" /><label class="checkbox" for="sensitiveTag7">GL</label></div>
+						</div>
+					</div>
+					</div>
+					<div class="form">
+						<label class="text">文章內容</label>
+						<textarea></textarea>
+						<div class="tagCloud">
+							<label class="text">與本作品有關角色</label>
+							<div class="tagField">
+								<span class="tag"><a href="#">奇幻</a></span><span class="tag"><a href="#">歡樂</a></span><span class="tag"><a href="#">大正</a></span>
+								<input id="characterTag" class="tagInput" type="text">
+							</div>
+						</div>
+						<p>&nbsp;</p>
+						<label class="text">聲明</label>
+							<input type="checkbox" id="agreement1" name="agreement1" /><label class="checkbox" for="agreement1">我同意<a href="#">投稿條款</a></label>
+							<input type="checkbox" id="agreement2" name="agreement2" /><label class="checkbox" for="agreement2">我確認此企劃為本人及本人團隊（如有）原創<br/><span class="grey">Oriper可在無須通知下將不合規定的作品刪除 </span></label>
+						<p>&nbsp;</p>
+						<p class="center"><a href="#" class="pinkBtn">確認送出</a></p>
+					</div>
+				</div>
+			</div>
+			
+
+			
+			<!-- Login Home Template Ends -->
+			<!-- Footer Starts -->
+			<footer>
+				<div class="container">
+					<div class="footerNav">
+						<ul>
+							<li>
+								<a href="#">最新消息</a>
+							</li>
+							<li>
+								<a href="#">有關我們</a>
+							</li>
+							<li>
+								<a href="#">常見問題</a>
+							</li>
+							<li>
+								<a href="#">聯繫我們</a>
+							</li>
+						</ul>
+					</div>
+					<div class="footerLower">
+						<div class="copyright">
+							&copy; Oriper 2015. All Rights Reserved.
+						</div>
+						<div class="share">
+							<ul>
+								<li>
+									<a href="#" class="plurk">Plurk</a>
+								</li>
+								<li>
+									<a href="#" class="facebook">Facebook</a>
+								</li>
+								<li>
+									<a href="#" class="twitter">Twitter</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</footer>
+			<!-- Footer Ends -->
+		
+	</body>
+</html>
