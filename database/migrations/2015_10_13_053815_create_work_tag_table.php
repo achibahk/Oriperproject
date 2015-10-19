@@ -13,7 +13,9 @@ class CreateWorkTagTable extends Migration
     public function up()
     {
         Schema::create('work_tag', function (Blueprint $table) {
-            $table->increments('id');
+            $table->string('tag_id');
+            $table->string('work_id');
+            $table->primary(['tag_id', 'work_id']);
             $table->timestamps();
         });
     }

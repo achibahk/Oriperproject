@@ -14,6 +14,13 @@ class CreateScoreTable extends Migration
     {
         Schema::create('score', function (Blueprint $table) {
             $table->increments('id');
+            $table->integer('user_id');
+            $table->integer('work_id');
+            $table->integer('score');
+            $table->integer('view_last_week');
+            $table->integer('view_last_month');
+            $table->integer('bookmark_last_week');
+            $table->integer('bookmark_last_month');
             $table->timestamps();
         });
     }

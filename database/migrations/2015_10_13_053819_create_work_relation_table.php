@@ -14,7 +14,9 @@ class CreateWorkRelationTable extends Migration
     {
         Schema::create('work_relation', function (Blueprint $table) {
             $table->increments('id');
-            $table->timestamps();
+            $table->string('work_id');
+            $table->string('relation');
+            $table->tinyInteger('order');
         });
     }
 

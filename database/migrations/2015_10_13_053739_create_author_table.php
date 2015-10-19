@@ -13,7 +13,10 @@ class CreateAuthorTable extends Migration
     public function up()
     {
         Schema::create('author', function (Blueprint $table) {
-            $table->increments('id');
+            $table->integer('user_id');
+            $table->integer('work_id');
+            $table->string('type',20);
+            $table->primary(['user_id', 'work_id']);
             $table->timestamps();
         });
     }
