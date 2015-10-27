@@ -15,7 +15,9 @@ class CreateWorkTable extends Migration
         Schema::create('work', function (Blueprint $table) {
             $table->increments('id');
             $table->string('type',20);
-            $table->integer('total_view');
+            $table->string('title',50);
+            $table->integer('total_view')->unsigned();
+            $table->integer('total_bookmark')->unsigned();
             $table->string('image');
             $table->string('derivative');
             $table->integer('score_id');
