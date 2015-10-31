@@ -17,7 +17,7 @@ class CreateNovelTable extends Migration
             $table->integer('work_id');
             $table->string('title',50);
             $table->string('freetalk');
-            $table->string('short_content');
+            $table->text('content');
             $table->timestamps();
         });
     }
